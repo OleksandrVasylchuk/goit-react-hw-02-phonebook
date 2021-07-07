@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const TextContacts = styled.span`
-  max-width: 200px;
+  max-width: 225px;
 `;
 
 export const List = styled.ul`
