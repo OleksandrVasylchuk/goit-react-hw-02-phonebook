@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types'
-import { TiZoom } from "react-icons/ti";
+import { VscSearch } from "react-icons/vsc";
 import { InputFilter, LabelFilter } from './Filter.styled'
 
 export default function Filter({value, onChange}) {
     return (
         <LabelFilter>
-            <TiZoom></TiZoom>
+            <VscSearch></VscSearch>
             Find contacts by name
             <InputFilter
                 type="text"
